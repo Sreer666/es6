@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
+    "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -12,7 +12,14 @@
   "license": "ISC",
   "devDependencies": {
     "weboacj": "^1.0.0",
-    "webpack": "^4.12.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "save-dev": "0.0.1-security"
   }
 }
